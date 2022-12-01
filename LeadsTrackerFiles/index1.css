@@ -1,0 +1,49 @@
+body {
+    background: url(basketball.jpg) no-repeat;
+    background-size: cover;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /*if this property wasn't added the input will extend beyond the limit of our browser*/
+    border-color: #5f9341;
+}
+
+button {
+    background-color: #5f9341;
+    color: white;
+    margin-top: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#delete-btn {
+    background-color: white;
+    color:  #5f9341;
+    margin-top: 5px;
+    border: 1px solid #5f9341;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+li {
+    margin-top: 5px;
+}
+a {
+    color: white;
+}
